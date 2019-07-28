@@ -29,27 +29,9 @@ class App  extends Component{
     super(props)
     this.state={
       users:[{id: 1 , username:"moetez",password:"honoloulou"}],
-      tasks:[{
-        id:1,
-        id_user:2,
-        text:"hi",
-        category:"professional",
-        status:"done",
-        priority:1,
-        date:new Date()
-      }, 
-      {
-        id:2,
-        id_user:2,
-        text:"halay",
-        category:"professional",
-        status:"undone",
-        priority:1,
-        date:new Date()
-      }
-    ],
+      tasks:[ ],
         connecte:false ,
-        notifications:[{text:"hhhh"}]   
+        notifications:[]   
     }
     this.addtask=this.addtask.bind(this);
     this.deletetask=this.deletetask.bind(this);
