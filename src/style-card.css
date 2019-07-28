@@ -1,0 +1,51 @@
+.card-style{
+  margin-top : 20px ; 
+  animation-name: fadein ; 
+  animation-duration: 1s;
+  transition-timing-function:step-end;
+  transition: margin-top opacity ; 
+}
+.card{
+
+  margin:0.5rem 0.3rem;
+
+}
+
+
+@keyframes fadein {
+    0%   {opacity:0; margin-top:-20px}
+    25%  {opacity:0.5;margin-top:0px}
+    50%  {opacity:0.8;margin-top:40px}
+    100% {opacity:1;margin-top:20px}
+  }
+  .my-card{
+    border-radius: 7px 7px 7px 7px ;
+    margin-top:4rem;
+    height: 9rem;
+    width:12.1rem;
+  }
+  .inside-card{
+    position: absolute;
+    width:4rem;
+    height:4rem;
+    padding:0 ;
+     
+    top:-2rem;
+    left:0.5rem;
+     
+  }
+  .inside-icon{
+    color:white;
+    font-size:2rem;
+    
+  }
+  .dividor{
+    
+    border:0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0.5;
+    margin-bottom:0.5;
+  }
+  .text-card{
+ 
+  }

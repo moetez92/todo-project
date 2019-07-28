@@ -1,0 +1,10 @@
+.add:hover{
+    border-bottom: 1px solid grey  ; 
+    cursor:pointer ; 
+}
+.icon{
+    width:256px;
+    height:256px;
+    margin-top:14rem;
+    margin-left:16rem;
+}

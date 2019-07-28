@@ -1,0 +1,70 @@
+ .hide{
+     display: none !important;
+ }
+ .main-block{
+      height:30rem ; 
+      width: 55rem;
+      margin-top: 5rem  ; 
+     }
+     
+ .left-block {
+     width: 50%;
+ }
+ .right-block {
+     width:50%;
+ }
+ .input-field{
+     width:20rem !important;
+ }
+ .button-section{
+     margin-top:3rem;
+ }
+ .icon-div{
+    margin-top:10rem
+     
+ }
+ .icon{
+     font-size: 5rem
+ }
+ .coulissant{
+     width:27.5rem; 
+     height: 30rem ;
+     background: linear-gradient(90deg, rgba(41,128,185,1) 0%, rgba(149,165,166,1) 100%, rgba(149,165,166,1) 100%); 
+     position :absolute;
+     left:15.2rem;
+     top:9.2rem;
+     color:white;
+     text-align:center;
+     
+     
+ }
+ .textbold{
+     font-size: 2rem;
+ }
+ .textbold:hover{
+     text-decoration: underline;
+     cursor: pointer;
+ }
+ .droit{
+    animation: droite 0.7s ease  forwards  ; 
+ }
+
+ .membership-text:hover{
+  font-size: 1.5rem;
+  cursor:pointer;
+  text-decoration: underline;
+
+ }
+ .gauche{
+     animation: leftslide 0.7 esae forwards ; 
+ }
+ @keyframes leftslide {
+      
+     100%{left:49rem;}
+ }
+ @keyframes droite{
+    
+     100%{opacity:1;
+        transform:translate(27.5rem);
+     }
+ }

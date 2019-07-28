@@ -1,0 +1,22 @@
+
+  
+ @import url('https://fonts.googleapis.com/css?family=Mukta|Ropa+Sans&display=swap');
+ html{
+  font-size:100%;
+ }
+body {
+  margin: 0;
+   font-family: 'Mukta', sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  font-size: 1.6rem;
+  z-index: -999;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

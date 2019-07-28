@@ -1,0 +1,142 @@
+
+
+.todo-item{
+    width:40rem;
+    height:4rem;
+    padding:0;
+   
+  animation: fadein 1s ease-in-out ;
+
+}
+.notification-card{
+    width:40rem;
+    height:4rem;
+    padding:1rem;
+
+
+}
+
+.textnotif{
+    padding: 0 ; 
+    
+    height:2rem;
+    margin-top:1rem;
+ 
+}
+ 
+@keyframes fadein{
+    0%{
+        transform: translateY(1rem);
+    }
+    50%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.menu-block:hover > .menu-icon{
+   opacity:1
+}
+.menu-block:hover > .edit-pen{
+    opacity:1
+ }
+ .edit-pen{
+    color:grey ; 
+    cursor:pointer;
+    opacity:0
+}
+.menu-icon{
+    color:grey ; 
+    cursor:pointer;
+    opacity:0
+}
+
+.checkbox-border{
+    
+    width:1.7rem;
+    height:1.7rem;
+    padding:0;
+    border:1px solid grey ;
+    border-radius: 50%;
+   
+}
+.checkbox-symbol{
+   
+ font-size: 100% ; 
+ opacity: 0;
+  
+   
+}
+.checkbox-border:hover{
+ cursor: pointer;
+}
+
+.checkbox-border:hover .checkbox-symbol{
+ 
+    color:green ; 
+    opacity: 1;
+    
+}
+
+@keyframes fadein{
+   
+    100%{opacity:1}
+}
+ 
+.mycard{
+    position: absolute ; 
+   
+    width:50px ; 
+    height:50px ; 
+    top:-20px;
+    left:10px ; 
+    color:white ; 
+    background: #3498db ;
+
+}
+
+.rightbox{
+    position:absolute ; 
+    right : 1rem  ; 
+    width:100px;
+
+}
+.carditem{
+    color:grey;
+    font-size: 15px;
+    margin-left: 1rem ; 
+}
+.carditem:hover{
+    cursor: pointer ; 
+}
+.grey{
+    color : #636e72 ;
+}
+.carditem{
+   opacity:0;
+}
+.card-item:hover .carditem{
+    opacity:1;
+}
+.leftside{
+    width:200px;
+}
+.x{
+  
+padding-left: 0 ; 
+
+}
+.cursor{
+    cursor: pointer;
+}
+.todo-item-right{
+    width:2rem;
+}
+
+.done{
+    text-decoration: line-through;
+}
+.todo-text{
+    font-size: 1.5rem;
+}
